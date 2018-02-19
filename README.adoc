@@ -1,0 +1,45 @@
+= Asciidoctor Benchmark
+
+Compare the performance between Asciidoctor (Ruby), AsciidoctorJ (Java) and Asciidoctor.js (JavaScript)
+
+== Install
+
+To run this benchmark, you will need the following tools:
+
+- Maven 3.5+
+- Java 1.8+
+- Ruby 2.4+ (with gem)
+- Bundler 
+- Node.js 8+ (with npm or Yarn)
+
+
+== Setup
+
+.Java
+
+ $ mvn clean install
+
+.Ruby
+
+ $ gem install bundler
+ $ bundle install
+
+.JavaScript
+
+ $ yarn
+
+NOTE: You can also use `npm install`
+
+== Usage
+
+.Java
+
+ $ time java -jar target/asciidoctor-benchmark-jar-with-dependencies.jar
+
+.Ruby
+
+ $ time ruby src/main/ruby/run.rb
+
+.JavaScript
+
+ $ time node src/main/javascript/run.js
