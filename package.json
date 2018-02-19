@@ -1,0 +1,43 @@
+{
+  "name": "asciidoctor-benchmark",
+  "version": "1.0.0",
+  "description": "Asciidoctor benchmark",
+  "engines": {
+    "node": ">=4",
+    "npm": ">=3.0.0",
+    "yarn": ">=1.1.0"
+  },
+  "scripts": {
+    "benchmark": "node npm/benchmark.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mogztter/asciidoctor-benchmark.git"
+  },
+  "keywords": [
+    "asciidoc",
+    "asciidoctor",
+    "java",
+    "ruby",
+    "javascript",
+    "benchmark"
+  ],
+  "authors": [
+    "Guillaume Grossetie (https://github.com/mogztter)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mogztter/asciidoctor-benchmark/issues"
+  },
+  "homepage": "https://github.com/mogztter/asciidoctor-benchmark",
+  "devDependencies": {
+    "asciidoctor.js": "1.5.6-preview.5",
+    "async": "2.6.0",
+    "bestikk-download": "0.1.0",
+    "bestikk-fs": "0.1.0",
+    "bestikk-jdk-ea": "0.1.1",
+    "bestikk-log": "0.1.0",
+    "browserify": "15.2.0",
+    "eslint": "4.16.0"
+  }
+}
